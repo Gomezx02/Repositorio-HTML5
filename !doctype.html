@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artigo JOINs</title>
+</head>
+<body>
+    <h1>Dominando JOINs</h1>
+    Escolhi o artigo "Dominando JOINs, Subqueries e Técnicas de Consulta" (dev.to, publicado em 19/12/2025), que aborda JOINs avançados, subqueries e CTEs com exemplos práticos em SQL.
+    <h2>Análise Crítica</h2>
+    <h3>Introdução</h3>
+    <p>
+        O artigo explora técnicas avançadas de SQL, focando em INNER JOINs com aliases e funções, combinação de JOINs com subqueries e exemplos complexos para análise de dados como salários por departamento. Ele usa um schema de "employees" e "departments" para ilustrar consultas reais em bancos relacionais.
+
+    </p>
+    <h3>Problema</h3>
+    <p>
+        Consultas SQL básicas limitam análises em múltiplas tabelas, dificultando comparações como salários acima da média departamental ou junções com filtros dinâmicos. Subqueries aninhadas tornam o código confuso e menos performático em grandes datasets.
+
+    </p>
+    <h3>Solução</h3>
+    <p>
+        Propõe INNER JOINs com aliases (ex.: e.last_name formatado com UPPER e TO_CHAR), subqueries agregadas em JOINs (média e max de salário por dept) e exemplos com múltiplos JOINs para filtrar por localização e salário. Demonstra CTEs como alternativa legível a subqueries complexas.
+
+    </p>
+    <h3>Pontos Fortes</h3>
+    <p>
+        Exemplos de código prontos e comentados facilitam replicação prática; progressão lógica de básico a avançado; foco em legibilidade com aliases.
+
+    </p>
+    <h3>Pontos Fracos</h3>
+    <p>
+        Falta cobertura de LEFT/RIGHT JOINs, otimização de performance (índices, EXPLAIN) e CTEs recursivas; exemplos repetem schema HR sem variedade; ausência de benchmarks ou erros comuns.
+    </p>
+
+</body>
+</html>
